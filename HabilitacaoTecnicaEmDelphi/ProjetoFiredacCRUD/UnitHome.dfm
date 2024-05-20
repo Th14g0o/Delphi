@@ -40,7 +40,7 @@ object FormHome: TFormHome
         Top = 64
         Width = 529
         Height = 273
-        DataSource = DataSource1
+        DataSource = DataModule1.DataSource1
         TabOrder = 0
         TitleFont.Charset = DEFAULT_CHARSET
         TitleFont.Color = clWindowText
@@ -178,10 +178,5 @@ object FormHome: TFormHome
         OnClick = CriarClick
       end
     end
-  end
-  object DataSource1: TDataSource
-    DataSet = DataModule1.FDQuery1
-    Left = 404
-    Top = 50
   end
 end

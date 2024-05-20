@@ -21,7 +21,6 @@ type
     Label4: TLabel;
     Criar: TButton;
     Label5: TLabel;
-    DataSource1: TDataSource;
     DBGrid1: TDBGrid;
     AtualizarBt: TButton;
     VisualizarBt: TButton;

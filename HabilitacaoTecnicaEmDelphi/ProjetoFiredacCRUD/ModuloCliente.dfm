@@ -7,7 +7,6 @@ object DataModule1: TDataModule1
         'Database=C:\Repos\Delphi\HabilitacaoTecnicaEmDelphi\ProjetoFired' +
         'acCRUD\CrudCliente.db'
       'DriverID=sQLite')
-    Connected = True
     LoginPrompt = False
     Left = 112
     Top = 128
@@ -40,5 +39,10 @@ object DataModule1: TDataModule1
       FieldName = 'dt_nasc'
       Origin = 'dt_nasc'
     end
+  end
+  object DataSource1: TDataSource
+    DataSet = FDQuery1
+    Left = 404
+    Top = 50
   end
 end

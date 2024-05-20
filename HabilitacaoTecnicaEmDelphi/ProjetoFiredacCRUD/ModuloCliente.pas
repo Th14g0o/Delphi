@@ -19,6 +19,7 @@ type
     FDQuery1nome: TStringField;
     FDQuery1cpf: TStringField;
     FDQuery1dt_nasc: TDateField;
+    DataSource1: TDataSource;
   private
     { Private declarations }
   public
