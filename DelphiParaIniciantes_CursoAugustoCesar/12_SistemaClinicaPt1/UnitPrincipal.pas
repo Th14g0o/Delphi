@@ -18,6 +18,7 @@ type
     Panel1: TPanel;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
+    Image1: TImage;
   private
     { Private declarations }
   public
