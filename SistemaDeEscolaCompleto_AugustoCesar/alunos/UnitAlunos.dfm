@@ -158,7 +158,7 @@ object frmCadAlunos: TfrmCadAlunos
     Left = 391
     Top = 191
     Width = 250
-    Height = 324
+    Height = 274
     DataSource = DM.dsAlunos
     TabOrder = 1
     TitleFont.Charset = DEFAULT_CHARSET
@@ -285,5 +285,14 @@ object frmCadAlunos: TfrmCadAlunos
     ListField = 'nome'
     ListSource = DM.dsResponsaveis
     TabOrder = 15
+  end
+  object btRelatorio: TButton
+    Left = 391
+    Top = 490
+    Width = 250
+    Height = 25
+    Caption = 'Gerar Rel'#225'torio'
+    TabOrder = 16
+    OnClick = btRelatorioClick
   end
 end

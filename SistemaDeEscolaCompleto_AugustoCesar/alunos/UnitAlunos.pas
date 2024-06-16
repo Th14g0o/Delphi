@@ -39,8 +39,10 @@ type
     DBRadioGroup1: TDBRadioGroup;
     DBLookupComboBox1: TDBLookupComboBox;
     Label14: TLabel;
+    btRelatorio: TButton;
     procedure txtLocalizarChange(Sender: TObject);
     procedure FormShow(Sender: TObject);
+    procedure btRelatorioClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -54,7 +56,12 @@ implementation
 
 {$R *.dfm}
 
-uses UnitDM;
+uses UnitDM, UnitRelAlunos;
+
+procedure TfrmCadAlunos.btRelatorioClick(Sender: TObject);
+begin
+  frmRelAlunos.relAlunos.Preview();
+end;
 
 procedure TfrmCadAlunos.FormShow(Sender: TObject);
 begin
