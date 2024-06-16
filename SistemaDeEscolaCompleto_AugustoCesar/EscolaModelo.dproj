@@ -133,6 +133,10 @@
         <DCCReference Include="responsaveis\UnitCadResponsaveis.pas">
             <Form>frmCadResponsaveis</Form>
         </DCCReference>
+        <DCCReference Include="alunos\UnitAlunos.pas">
+            <Form>frmCadAlunos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

@@ -58,8 +58,8 @@ end;
 procedure TfrmCadResponsaveis.FormCreate(Sender: TObject);
 begin
   //navigator começa todo desativo, sem motivo aparente.
-  if not DM.tbResponsaveis.IsEmpty then DM.tbResponsaveis.First
-  else DM.tbResponsaveis.Insert;
+  DM.tbResponsaveis.Close;
+  DM.tbResponsaveis.Open;
 end;
 
 procedure TfrmCadResponsaveis.txtLocalizarChange(Sender: TObject);

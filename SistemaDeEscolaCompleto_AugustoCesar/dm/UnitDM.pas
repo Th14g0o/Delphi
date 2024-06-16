@@ -22,6 +22,21 @@ type
     tbResponsaveiscelular: TStringField;
     tbResponsaveisparentesco: TStringField;
     dsResponsaveis: TDataSource;
+    tbAlunos: TFDTable;
+    dsAlunos: TDataSource;
+    tbAlunosid: TFDAutoIncField;
+    tbAlunosnome: TStringField;
+    tbAlunosendereco: TStringField;
+    tbAlunosbairro: TStringField;
+    tbAlunoscidade: TStringField;
+    tbAlunosuf: TStringField;
+    tbAlunoscep: TStringField;
+    tbAlunoscelular: TStringField;
+    tbAlunosoperadora: TStringField;
+    tbAlunosemail: TStringField;
+    tbAlunosautorizadoSairCom: TStringField;
+    tbAlunosensinoReligioso: TShortintField;
+    tbAlunosresponsavelCarne: TIntegerField;
   private
     { Private declarations }
   public

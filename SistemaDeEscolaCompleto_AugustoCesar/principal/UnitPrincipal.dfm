@@ -22,6 +22,10 @@ object frmPrincipal: TfrmPrincipal
         Caption = 'Respons'#225'veis'
         OnClick = Responsveis1Click
       end
+      object Alunos1: TMenuItem
+        Caption = 'Alunos'
+        OnClick = Alunos1Click
+      end
     end
   end
 end
