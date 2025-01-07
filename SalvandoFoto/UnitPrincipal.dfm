@@ -17,6 +17,7 @@ object FormPrincipal: TFormPrincipal
     Top = 106
     Width = 240
     Height = 240
+    Stretch = True
   end
   object DBGrid: TDBGrid
     Left = 8
